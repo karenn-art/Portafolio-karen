@@ -1,70 +1,93 @@
-# Portafolio-karen
-<!DOCTYPE html><html lang="es">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Portafolio - Karen Solano Aragón</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #fdfdfd;
-      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
+      line-height: 1.6;
     }
     header {
-      background-color: #d6c6e1;
-      padding: 40px;
+      background: #63005f;
+      color: #fff;
+      padding: 2rem;
       text-align: center;
     }
-    header h1 {
+    h1 {
       margin: 0;
       font-size: 2.5rem;
     }
-    .container {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
+    .intro {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
     }
-    section {
-      margin-bottom: 50px;
+    .section {
+      background: #fff;
+      padding: 2rem;
+      margin: 1rem auto;
+      max-width: 800px;
+      border-left: 5px solid #63005f;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-    h2 {
-      color: #7c4d9b;
-      border-bottom: 2px solid #e0c1f3;
-      padding-bottom: 5px;
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
     }
-    .ficha {
-      background-color: #f3eff7;
-      padding: 20px;
-      border-radius: 10px;
-    }
-    .label {
-      font-weight: bold;
-      color: #5c3b72;
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Karen Solano Aragón</h1>
-    <p>Artista Plástica y Visual</p>
-  </header>  <div class="container">
-    <section>
-      <h2>Bio Profesional</h2>
-      <p>Karen Solano Aragón (Bogotá, 2005) es artista plástica y visual egresada de la Universidad Antonio Nariño. Su práctica artística se enfoca en una reflexión crítica sobre el cuerpo, la naturaleza y los procesos sociales y culturales que atraviesan la vida contemporánea. A través de la fotografía, la instalación y el performance, aborda temas relacionados con los movimientos sociales actuales, especialmente el feminismo y las luchas populares, desde una mirada sensible, simbólica y comprometida. Su obra busca generar diálogo, confrontación y conciencia desde lo visual y lo corporal, entrelazando lo íntimo con lo colectivo.</p>
-    </section><section>
-  <h2>Ficha de Obra - Ejemplo</h2>
-  <div class="ficha">
-    <p><span class="label">Título:</span> Territorio Reclamado</p>
-    <p><span class="label">Año:</span> 2024</p>
-    <p><span class="label">Técnica / Medio:</span> Instalación y fotografía análoga</p>
-    <p><span class="label">Dimensiones:</span> 2m x 1,5m x 1m</p>
-    <p><span class="label">Descripción conceptual:</span> Esta obra propone una reflexión crítica sobre la apropiación del cuerpo femenino como territorio de lucha y resistencia, en diálogo con elementos naturales como tierra y flores en descomposición. El trabajo se enmarca en las discusiones contemporáneas del feminismo latinoamericano, cuestionando las narrativas hegemónicas desde un lenguaje visual simbólico y visceral.</p>
-    <p><span class="label">Registro fotográfico:</span> Karen Solano</p>
-  </div>
-</section>
 
-  </div>
+  <header>
+    <h1>KAREN SOLANO ARAGÓN</h1>
+    <p>Artista Visual | Fotografía · Instalación · Performance</p>
+  </header>
+
+  <section class="intro">
+    <p>
+      Soy una artista visual con base en Bogotá. Trabajo desde una perspectiva crítica en torno al cuerpo, la naturaleza, y los movimientos sociales actuales. Mis obras exploran tensiones entre lo íntimo y lo político, haciendo uso de medios como la fotografía, la instalación y el performance.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Enfoque</h2>
+    <p>
+      Me interesa especialmente la representación del cuerpo como territorio en disputa, así como las relaciones simbólicas entre naturaleza y cultura. Abordo temas como la feminidad, la resistencia, el deterioro y la memoria, integrando elementos visuales fuertes con narrativa conceptual.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Lenguajes y medios</h2>
+    <ul>
+      <li>📸 Fotografía conceptual y experimental (análoga y digital)</li>
+      <li>🌿 Instalación con elementos naturales e industriales</li>
+      <li>🌀 Performance enfocada en lo ritual y lo corporal</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Temas frecuentes</h2>
+    <ul>
+      <li>✊ Feminismo y justicia social</li>
+      <li>🌱 Naturaleza y artificialidad</li>
+      <li>🧠 Memoria, tiempo y trauma</li>
+      <li>⚰️ Vida, muerte y trascendencia</li>
+    </ul>
+  </section>
+
+  <footer>
+    Portafolio creado por Karen Solano Aragón · Bogotá · 2025
+  </footer>
+
 </body>
 </html>
